@@ -1,0 +1,96 @@
+$darkgreen: #444A28;
+$lightyellow: #DAB476;
+$lightblue: #A6CFE5;
+$lightgrey: #9d9d9d;
+
+.navbar-inverse,.navbar {
+  background-color: $darkgreen;
+  border-color: $lightyellow;
+
+  a.navbar-brand {
+    color: white;
+  }
+
+  a.navbar-brand:hover {
+    color: $lightgrey;
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: white;
+      }
+      a:hover {
+        background-color: $lightyellow;
+      }
+      a:active {
+        background-color: $lightyellow;
+      }
+    }
+  }
+}
+
+.about-me {
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+  p {
+    margin-bottom: 28px;
+    margin-top: 28px;
+  }
+}
+
+.breadcrumb {
+  background-color: $lightblue;
+  margin-top: 18px;
+  margin-bottom: 49px;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: $lightyellow;
+    text-decoration: none;
+  }
+}
+
+.about-me {
+  #social-links {
+    text-align: center;
+    margin-top: 19px;
+    text-decoration: none;
+    a:hover {
+      text-decoration: none;
+    }
+
+    a:active {
+      text-decoration: none;
+    }
+  }
+}
+
+.fa-2x, .fa-lg {
+  color: $lightyellow;
+}
+
+
+#projects {
+  .col-md-4 {
+    margin-bottom: 4rem;
+  }
+  .glyphicon-chevron-left, .glyphicon-chevron-right {
+    font-size: 15px;
+  }
+  p {
+    font-size:1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+    font-size: 15px;
+  }
+
+}
