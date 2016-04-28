@@ -87,6 +87,17 @@ $lightgrey: #9d9d9d;
   }
 }
 
+.load {
+  margin-top: 2rem;
+  p {
+    margin-top: 2rem;
+  }
+}
+
+.download {
+  margin-top: 3rem;
+}
+
 @media screen and (min-width: 768px){
 
   .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{

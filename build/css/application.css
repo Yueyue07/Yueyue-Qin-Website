@@ -6518,6 +6518,14 @@ body {
 #projects p {
   font-size: 1.5rem; }
 
+.load {
+  margin-top: 2rem; }
+  .load p {
+    margin-top: 2rem; }
+
+.download {
+  margin-top: 3rem; }
+
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
     font-size: 15px; } }

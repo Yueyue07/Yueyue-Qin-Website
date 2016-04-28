@@ -58,8 +58,16 @@
 	        templateUrl: '/views/home.html'
 	      })
 	      .state('resume', {
-	        url: '/',
+	        url: '/resume',
 	        templateUrl: '/views/resume.html'
+	      })
+	      .state('blog', {
+	        url: '/blog',
+	        templateUrl: '/views/blog.html'
+	      })
+	      .state('contact', {
+	        url: '/contact',
+	        templateUrl: '/views/contact.html'
 	      })
 	      .state('adminBlog', {
 	        url: '/write/blogs',
