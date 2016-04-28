@@ -1,0 +1,43 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "This is Yueyue Qin's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yueyue07/personal_website.git"
+  },
+  "author": "Yueyue Qin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yueyue07/personal_website/issues"
+  },
+  "homepage": "https://github.com/Yueyue07/personal_website#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "core-util-is": "^1.0.2",
+    "express": "^4.13.4",
+    "isarray": "^1.0.0",
+    "mongoose": "^4.4.12",
+    "multer": "^1.1.0",
+    "process-nextick-args": "^1.0.6",
+    "streamsearch": "^0.1.2"
+  },
+  "devDependencies": {
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "html-loader": "^0.4.3",
+    "ng-file-upload": "^12.0.4",
+    "util-deprecate": "^1.0.2",
+    "webpack": "^1.13.0",
+    "webpack-stream": "^3.1.0"
+  }
+}
