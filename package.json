@@ -1,5 +1,5 @@
 {
-  "name": "Yueyue_Qin",
+  "name": "yueyueqin",
   "version": "1.0.0",
   "description": "This is Yueyue Qin's personal website",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yueyue07/personal_website.git"
+    "url": "git+https://github.com/Yueyue07/Yueyue-Qin-Website.git"
   },
   "author": "Yueyue Qin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Yueyue07/personal_website/issues"
+    "url": "https://github.com/Yueyue07/Yueyue-Qin-Website/issues"
   },
-  "homepage": "https://github.com/Yueyue07/personal_website#readme",
+  "homepage": "https://github.com/Yueyue07/Yueyue-Qin-Website#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "core-util-is": "^1.0.2",
