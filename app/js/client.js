@@ -11,6 +11,10 @@ yueyueApp.config(['$stateProvider', '$urlRouterProvider',
         url: '/',
         templateUrl: '/views/home.html'
       })
+      .state('resume', {
+        url: '/',
+        templateUrl: '/views/resume.html'
+      })
       .state('adminBlog', {
         url: '/write/blogs',
         templateUrl: '/views/write_blog.html',
