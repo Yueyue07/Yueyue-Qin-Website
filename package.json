@@ -40,5 +40,8 @@
     "util-deprecate": "^1.0.2",
     "webpack": "^1.13.0",
     "webpack-stream": "^3.1.0"
-  }
+  },
+  "engines": {
+  "node": "4.2.3"
+}
 }
