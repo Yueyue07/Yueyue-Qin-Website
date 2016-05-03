@@ -6518,6 +6518,15 @@ body {
 #projects p {
   font-size: 1.5rem; }
 
+.modal-body label {
+  margin-left: 1rem; }
+
+.modal-body a {
+  margin-left: 0.8rem; }
+
+.modal-body p {
+  margin-left: 1rem; }
+
 .load {
   margin-top: 2rem; }
   .load p {
@@ -6525,6 +6534,12 @@ body {
 
 .download {
   margin-top: 3rem; }
+
+footer a:hover {
+  text-decoration: none; }
+
+footer a:active {
+  text-decoration: none; }
 
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
