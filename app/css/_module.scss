@@ -87,6 +87,18 @@ $lightgrey: #9d9d9d;
   }
 }
 
+.modal-body {
+  label {
+    margin-left: 1rem;
+  }
+  a {
+    margin-left: 0.8rem;
+  }
+  p {
+    margin-left: 1rem;
+  }
+}
+
 .load {
   margin-top: 2rem;
   p {
@@ -97,6 +109,17 @@ $lightgrey: #9d9d9d;
 .download {
   margin-top: 3rem;
 }
+
+footer {
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+}
+
 
 @media screen and (min-width: 768px){
 
