@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -6458,7 +6458,7 @@ button.close {
 body {
   padding-top: 50px;
   font-size: 1.8rem;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Varela Round', sans-serif; }
 
 .starter-template {
   padding: 40px 15px;
@@ -6526,6 +6526,16 @@ body {
 
 .modal-body p {
   margin-left: 1rem; }
+
+.btn-info {
+  color: #fff;
+  background-color: #A6CFE5;
+  border-color: #A6CFE5; }
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #A6CFE5;
+  border-color: #A6CFE5; }
 
 .load {
   margin-top: 2rem; }
