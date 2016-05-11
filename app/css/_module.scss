@@ -31,6 +31,10 @@ $lightgrey: #9d9d9d;
 }
 
 .about-me {
+  .img-thumbnail {
+    display: block;
+    margin: 0 auto;
+  }
   h2 {
     margin-top: 0px;
     margin-bottom: 16px;
