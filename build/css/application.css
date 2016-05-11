@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro);
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -6458,7 +6458,7 @@ button.close {
 body {
   padding-top: 50px;
   font-size: 1.8rem;
-  font-family: 'Varela Round', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .starter-template {
   padding: 40px 15px;
