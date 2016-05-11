@@ -6478,6 +6478,10 @@ body {
   .navbar-inverse .navbar-nav li a:active, .navbar .navbar-nav li a:active {
     background-color: #DAB476; }
 
+.about-me .img-thumbnail {
+  display: block;
+  margin: 0 auto; }
+
 .about-me h2 {
   margin-top: 0px;
   margin-bottom: 16px;
