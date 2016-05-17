@@ -33,5 +33,10 @@ gulp.task('webpack:dev', () => {
       .pipe(gulp.dest('build/'));
 });
 
+gulp.task('jquery:dev', () => {
+  gulp.src(__dirname + '/app/js/animation.js')
+      .pipe(gulp.dest('build/'));
+});
+
 gulp.task('build:dev', ['html:dev', 'sass:dev',
-  'venderjs:dev', 'webpack:dev']);
+  'venderjs:dev', 'webpack:dev', 'jquery:dev']);
