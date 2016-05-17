@@ -1,7 +1,9 @@
 const angular = require('angular');
 require('angular-ui-router');
-const yueyueApp = angular.module('yueyueApp', ['ui.router']);
+require('angular-ui-bootstrap');
+const yueyueApp = angular.module('yueyueApp', ['ui.router', 'ui.bootstrap']);
 require('./blogs')(yueyueApp);
+require('./home')(yueyueApp);
 
 yueyueApp.config(['$stateProvider', '$urlRouterProvider',
   ($stateProvider, $urlRouterProvider) => {
@@ -9,6 +11,7 @@ yueyueApp.config(['$stateProvider', '$urlRouterProvider',
     $stateProvider
       .state('home', {
         url: '/',
+        contoller: 'HomeAnimation',
         templateUrl: '/views/home.html'
       })
       .state('resume', {
