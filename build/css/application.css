@@ -6491,6 +6491,12 @@ body {
   margin-bottom: 28px;
   margin-top: 28px; }
 
+.about-me .content h3 {
+  font-size: 2rem; }
+
+.about-me .content .panel-body {
+  font-size: 1.6rem; }
+
 .breadcrumb {
   background-color: #A6CFE5;
   margin-top: 18px;
