@@ -67,6 +67,12 @@ $lightgrey: #9d9d9d;
   }
 }
 
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: white;
+    content: "/\00a0";
+}
+
 .about-me {
   #social-links {
     text-align: center;

@@ -6507,6 +6507,11 @@ body {
     color: #DAB476;
     text-decoration: none; }
 
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: white;
+  content: "/\00a0"; }
+
 .about-me #social-links {
   text-align: center;
   margin-top: 19px;
